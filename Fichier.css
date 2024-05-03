@@ -1,0 +1,199 @@
+body, html {
+    height: 100%;
+    margin: 0%;
+    background-color: rgb(255, 0, 0);
+}
+
+button{
+    margin: 0 0 0 87%;
+}
+
+.parallax {
+   
+    background-image: url('./ImageAcceuil/Fond2.png');
+    height: 30%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }   
+
+.parallaxflou {
+    background-image: url('./ImageAcceuil/salle2.png');
+    height: 40%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+.parallaxflou2 {
+    background-image: url('./ImageAcceuil/salle2.png');
+    height: 20%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+.pagecolor {
+    height: 1050px;
+    background-color:orangered
+    ;z-index: 1;
+}
+
+.pagecolor2 {
+    height: 550px;
+    background-color:orangered
+    ;z-index: 1;
+}
+
+.pagecolor3 {
+    height: 750px;
+    background-color:orangered
+    ;z-index: 1;
+}
+
+h3 {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0 0 0 12%;
+}
+
+.police {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin: 12%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    margin: 0 25% 0 12%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text2 {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    margin: 0 0 0 10%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text3{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin: 0 0 0 10%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Bigtitle {
+    font-size: 70px;
+    color: rgb(0, 0, 0);
+    z-index: 2;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Bigtitle2 {
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    z-index: 2;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.title {
+    font-size: 70px;
+    color: rgb(0, 0, 0);
+    margin: 0 0 0 12%;
+    z-index: 2;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.title2 {
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    margin: 0 0 0 12%;
+    z-index: 2;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.colorlink {
+    color: rgb(34, 0, 255);
+}
+
+.colorlink2 {
+    color: rgb(0, 112, 0);
+}
+
+.imgacc {
+    width: 965px;
+    height: 353.2px;
+    background-image: url('./ImageAcceuil/tableau\ muscu.png');
+}
+
+
+
+/* barre de navigation */
+
+.bar {
+    position: fixed;
+    background-color: rgb(255, 0, 93);
+    background: linear-gradient(rgb(255, 27, 27),rgb(200, 25, 25));
+    height: 100%;
+    width: 65px;
+    z-index: 1;
+    transition:
+        width 0.2s
+}
+.bar:hover {
+    width: 120px;
+}
+img {
+    width: 50%;
+    margin: 0 0 10px 0;
+    z-index: 2;
+    transition:
+        width 0.2s
+    
+}
+
+
+img:hover {
+    width: 60%;
+}
+.image-home {
+    margin: 30% 0 0 0;
+    
+}
+
+.imgtitle {
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    margin: 0 0 0 2%;
+    z-index: 2;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* responsive text 
+
+@media screen and (max-width:1900px) {
+    .text, .text2 {
+        font-size: 35px;
+    }  
+}
+
+@media screen and (max-width:1200px) {
+    .text, .text2, h3 {
+        font-size: 20px;
+    }  
+}
+
+@media screen and (max-width:1000px) {
+    .text, .text2, h3 {
+        font-size: 15px;
+    }  
+}
+*/
